@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from fpdf import FPDF
 from PyPDF2 import PdfReader
-from PIL import Image
+from PIL import Ima
 
 # Initialize session state for tasks
 if "tasks" not in st.session_state:
